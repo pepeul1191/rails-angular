@@ -1,0 +1,25 @@
+{
+  "name": "rails-test",
+  "description": "Prueba de bower con rails",
+  "main": "",
+  "keywords": [
+    "Rails"
+  ],
+  "authors": [
+    "Pepe Valdidia <jvaldivia@softweb.pe>"
+  ],
+  "license": "MIT",
+  "homepage": "softweb.pe",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-redmine": "*",
+    "swp-plugins": "*",
+    "oclazyload": "^1.0.9"
+  }
+}
