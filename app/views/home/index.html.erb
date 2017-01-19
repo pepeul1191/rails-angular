@@ -4,3 +4,9 @@
 <input type = "text" ng-model = "yourName" placeholder = "Enter a name here">
 <hr />
 <h1>Hello {{yourName}}!</h1>
+
+<a href="<%=Url.base_url%>home#usuarios" class="btn btn-success">Mostrar Usuarios</a>
+<a href="<%=Url.base_url%>home#notas" class="btn btn-warning">Mostrar Notas</a>
+
+
+<ng-view></ng-view>
